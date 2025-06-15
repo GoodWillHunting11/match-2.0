@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Lazy Dog';
+  src: url('/Lazydog.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Optional: Define a Tailwind utility class */
+.font-lazy {
+  font-family: 'Lazy Dog', sans-serif;
+}
+
+
+
+body {
+  font-family: 'Lazy Dog', sans-serif;
+}
