@@ -13,10 +13,6 @@
   font-family: 'Lazy Dog', sans-serif;
 }
 
-* {
-  outline: 1px solid red; /* Or use Tailwind plugin for outlines */
-}
-
 
 body {
   font-family: 'Lazy Dog', sans-serif;
