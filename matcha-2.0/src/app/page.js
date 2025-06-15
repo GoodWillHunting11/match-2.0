@@ -3,7 +3,7 @@ import Image from "next/image";
 import Nav from "./Components/Nav";
 import Link from "next/link";
 import Welcome from "./Components/Welcome";
-import WhyJoin from "./Components/whyJoin";
+import WhyJoin from "./Components/WhyJoin";
 import JoinDmc from "./Components/JoinDmc";
 import WhereNext from "./Components/WhereNext";
 
