@@ -4,13 +4,13 @@ import Link from "next/link";
 export default function WhyJoin() {
     
     return (
-        <div className="w-full mt-[10rem] mb-[6rem]">
+        <div className="w-full mt-[33rem] mb-[6rem]">
         <div className="w-11/12 mx-auto flex flex-col">
-          <div className="why-join flex flex-col w-[60%] mx-auto">
-            <div className="text-center text-[3rem] mb-[2rem] text-[rgb(95,129,95)]">
+          <div className="why-join flex flex-col xl:w-[60%] w-[78%] mx-auto">
+            <div className="text-center xl:text-[3rem] text-2xl xl:mb-[2rem] mb-[1rem] text-[rgb(95,129,95)]">
               WHY JOIN DMC ?
             </div>
-            <div className="text-2xl text-center text-[rgb(95,129,95)]">
+            <div className="xl:text-2xl text-lg text-center text-[rgb(95,129,95)]">
               THE TRUE ESSENCE OF OUR COMMUNITY LIES IN CONNECTING WITH NEW FRIENDS, SUPPORTING LOCAL, AND ENJOYING QUALITY TIME OVER A CUP OF MATCHA.
               AND EVEN BETTER, THERE ARE NO FEES TO JOIN!
             </div>
