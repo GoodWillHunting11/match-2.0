@@ -14,7 +14,7 @@ export default function Welcome() {
 
     return (
         <div className=" xl:mt-[6rem] bg-[rgb(227,243,249)] xl:h-[78rem] h-[33rem] w-full bg-top bg-no-repeat bg-cover relative">
-        <div className="absolute z-[0] xl:bottom-0 bottom-[2rem] left-0 pointer-events-none scale-[3]">
+        <div className="absolute z-[0] xl:bottom-0 bottom-[2rem] left-0 pointer-events-none scale-[3] max-w-screen">
           <Image
             src={"/grass.png"}
             width={10000}

@@ -10,7 +10,7 @@ import WhereNext from "./Components/WhereNext";
 export default function Home() {
 
   return (
-    <div className="max-w-[1525px]">
+    <div className="max-w-[1525px] overflow-x-hidden">
       <div className="z-[60] fixed top-0 left-0 w-screen">
         <Nav />
       </div>
