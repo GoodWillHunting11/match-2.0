@@ -24,7 +24,7 @@ export default function JoinDmc() {
               <Link href={""} target="_blank" className="button text-white bg-[rgb(239,140,177)] w-[60%] justify-center h-[4rem] flex items-center rounded-[2rem] hover:bg-pink-400 transition cursor-pointer">fill out form</Link>
             </div>
         </div>
-        <div className="photos flex justify-center gap-[2rem]">
+        <div className="photos flex justify-center gap-[2rem] xl:pb-[4rem]">
           <div className="w-[20rem]">
              <Image 
               src={"/t-7th.png"}

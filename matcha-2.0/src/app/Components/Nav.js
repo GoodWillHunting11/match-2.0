@@ -8,7 +8,7 @@ export default function Nav() {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <nav className="bg-white h-[6rem] flex items-center justify-between px-6 relative">
+        <nav className="bg-white h-[6rem] flex items-center xl:justify-end justify-between px-6 relative">
             {/* Logo */}
             <div className="xl:w-[7rem] w-[3rem] xl:absolute xl:left-[6rem] right-[20%] bottom-[2rem] xl:bottom-[-3.5rem] z-40">
                 <Image
