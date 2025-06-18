@@ -38,7 +38,7 @@ export default function Nav() {
 
             {/* Mobile Menu */}
             {isOpen && (
-                <div className="absolute top-[6rem] left-0 w-full bg-white shadow-md flex flex-col items-center gap-6 text-2xl text-[rgb(100,152,178)] py-6 md:hidden">
+                <div className="absolute top-[4rem] left-0 w-full bg-white shadow-md flex flex-col items-center gap-6 text-2xl text-[rgb(100,152,178)] py-6 md:hidden">
                     <Link href="/aaliyah" onClick={() => setIsOpen(false)}>ABOUT</Link>
                     <Link href="/" onClick={() => setIsOpen(false)}>EVENTS</Link>
                     <Link href="/" onClick={() => setIsOpen(false)}>CAFES</Link>
