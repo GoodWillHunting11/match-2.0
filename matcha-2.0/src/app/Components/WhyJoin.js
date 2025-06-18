@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function WhyJoin() {
     
     return (
-        <div className="w-full xl:mt-[15rem] mt-[37rem] mb-[6rem]">
+        <div className="w-full xl:mt-[15rem] mt-[42rem] mb-[6rem]">
         <div className="w-11/12 mx-auto flex flex-col">
           <div className="why-join flex flex-col xl:w-[60%] w-[78%] mx-auto">
             <div className="text-center xl:text-[3rem] text-3xl xl:mb-[2rem] mb-[1rem] text-[rgb(95,129,95)]">

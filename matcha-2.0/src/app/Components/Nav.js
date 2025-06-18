@@ -10,7 +10,7 @@ export default function Nav() {
     return (
         <nav className="bg-white xl:h-[6rem] h-[4.5rem] flex items-center xl:justify-end justify-between px-6 relative">
             {/* Logo */}
-            <div
+            <Link href={"/"}
              className="xl:w-[7rem] w-[3rem] xl:absolute xl:left-[6rem] right-[20%] bottom-[2rem] xl:bottom-[-3.5rem] z-40">
                 <Image
                     src={"/DMCLogo.png"}
@@ -19,7 +19,7 @@ export default function Nav() {
                     width={1000}
                     height={1000}
                 />
-            </div>
+            </Link>
             {/* Desktop Nav */}
             <div className="hidden md:flex gap-12 text-3xl text-[rgb(100,152,178)] xl:mr-[4rem]">
                 <Link href={"/aaliyah"}>ABOUT</Link>

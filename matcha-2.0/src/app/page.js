@@ -6,6 +6,7 @@ import Welcome from "./Components/Welcome";
 import WhyJoin from "./Components/WhyJoin";
 import JoinDmc from "./Components/JoinDmc";
 import WhereNext from "./Components/WhereNext";
+import Footer from "./Components/Footer";
 
 export default function Home() {
 
@@ -18,6 +19,7 @@ export default function Home() {
       <WhyJoin />
       <JoinDmc />
       <WhereNext />
+      <Footer />
     </div>
   );
 }
