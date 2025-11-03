@@ -56,7 +56,7 @@ export default function Welcome() {
           <div className="text-white xl:text-2xl text-xl text-center xl:mb-[2rem] mb-[2rem] w-[80%] mx-auto">
             WHETHER YOU'RE A MATCHA ENTHUSIAST OR HAVE NEVER TRIED IT, ALL ARE WELCOME TO JOIN THE DMC!
           </div>
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <Link href="/about">
                 <span className="inline-block">
                   <div className="xl:w-[22rem] xl:h-[4rem] h-[4.5rem] w-[18rem] bg-[rgb(239,140,177)] rounded-4xl text-white xl:text-3xl text-2xl flex items-center justify-center hover:bg-pink-400 transition cursor-pointer">
@@ -64,10 +64,10 @@ export default function Welcome() {
                   </div>
                 </span>
             </Link>
-          </div>
+          </div> */}
         </div>
         <div>
-        <div className="w-full max-w-full xl:block hidden overflow-hidden border border-gray-300 rounded-lg bg-[rgb(252,236,245)] mt-[2rem] xl:mt-[2.5rem]">
+        <div className="w-full max-w-full xl:block hidden overflow-hidden border border-gray-300 rounded-lg bg-[rgb(252,236,245)] mt-[2rem] xl:mt-[8.5rem]">
       <div className="whitespace-nowrap inline-block animate-marquee xl:text-2xl text-xl font-bold text-[rgb(95,129,95)] pt-3 pb-1">
         {tickerText}
         {tickerText}

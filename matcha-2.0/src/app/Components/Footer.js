@@ -14,10 +14,10 @@ export default function Footer() {
                 />
             </Link>
             <div className="flex xl:flex-row flex-col text-center xl:gap-12 gap-[1rem] text-3xl text-[rgb(95,129,95)] xl:mt-[2rem] mt-[3rem]">
-                <Link href={"/"}>ABOUT</Link>
+                {/* <Link href={"/"}>ABOUT</Link> */}
                 <Link href={"/"}>EVENTS</Link>
-                <Link href={"/"}>CAFES</Link>
-                <Link href={"/"}>BLOG</Link>
+                {/* <Link href={"/"}>CAFES</Link>
+                <Link href={"/"}>BLOG</Link> */}
                 <Link href={"/"}>SHOP</Link>
             </div>
             <div className="flex xl:flex-row flex-col-reverse w-full xl:w-auto justify-center gap-[3rem] xl:mt-[4rem] mt-[3rem] xl:mb-[5rem] mb-[7rem] items-end">

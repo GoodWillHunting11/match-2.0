@@ -22,11 +22,10 @@ export default function Nav() {
             </Link>
             {/* Desktop Nav */}
             <div className="hidden md:flex gap-12 text-3xl text-[rgb(100,152,178)] xl:mr-[4rem]">
-                <Link href={"/aaliyah"}>ABOUT</Link>
-                <Link href={"/"}>EVENTS</Link>
-                <Link href={"/"}>CAFES</Link>
-                <Link href={"/"}>BLOG</Link>
-                <Link href={"/"}>SHOP</Link>
+                <Link  href={"https://luma.com/user/dallasmatcha"}>EVENTS</Link>
+                <Link href={"/picker"}>Giveaway Picker</Link>
+                {/* <Link href={"/blog"}>BLOG</Link> */}
+                <Link href={"/shop"}>SHOP</Link>
             </div>
 
             {/* Mobile Menu Icon */}
